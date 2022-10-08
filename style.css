@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.container {
+  width: 1200px;
+  /* margin: auto 10px; */
+  /* margin-left: 150px; */
+  /* margin-right: 150px; */
+  margin-inline: auto;
+}
+
+header {
+  background-color: #313552;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left-nav {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#contact {
+  margin-top: 20px;
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  border: 3px solid transparent;
+  outline: none;
+  color: var(--dark);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: #2eb086;
+  border-radius: 3px;
+}
+
+#contact:hover {
+  /* background-color: #2eb086; */
+  /* border: 3px solid #2eb086; */
+  /* color: #fff; */
+  color: #2eb086;
+  background-color: #313552;
+  border: 3px solid #2eb086;
+}
+
+a {
+  color: #f0f0f0;
+  /* color: var(--pure); */
+  text-decoration: none;
+  /* margin-right: 10px; */
+  margin-left: 10px;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #2eb086;
+}
+
+#hero {
+  margin-inline: auto;
+  display: flex;
+  color: #f0f0f0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero-right {
+  text-align: right;
+  width: 500px;
+}
+
+#hero-right h6 {
+  color: #b8405e;
+}
+
+#hero-right h1 {
+  color: #2eb086;
+}
+
+#hero-right span {
+  color: #f0f0f0;
+}
+
+#btn {
+  margin-top: 20px;
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  border: 3px solid transparent;
+  outline: none;
+  color: var(--dark);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: #2eb086;
+  border-radius: 3px;
+}
+
+#btn:hover {
+  /* background-color: #2eb086; */
+  /* border: 3px solid #2eb086; */
+  /* color: #fff; */
+  color: #2eb086;
+  background-color: #313552;
+  border: 3px solid #2eb086;
+}
+
+/* ------Second Part------ */
+section {
+  margin-top: 100px;
+  background-color: #bbe9db;
+  height: 100vh;
+}
+
+.heading-5 {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: #ed6663;
+}
+
+.skills-main-container {
+  display: flex;
+  justify-content: space-around;
+}
+#first-card {
+  display: flex;
+  padding: 15px;
+  margin-left: 50px;
+  border: 2px solid #2eb086;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+#first-card:hover {
+  background-color: #2eb086;
+  transition: all 0.5s ease-in-out;
+}
+
+#para-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+
+#first-card-image {
+  /* background: #f0f0f0; */
+  margin-top: 45px;
+}
+
+#second-card {
+  display: flex;
+  padding: 15px;
+  margin-right: 50px;
+  border: 2px solid #2eb086;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+#second-card:hover {
+  background-color: #2eb086;
+  transition: all 0.5s ease-in-out;
+}
+
+#para-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+
+#second-card-image {
+  /* background: #f0f0f0; */
+  margin-top: 15px;
+}
